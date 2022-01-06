@@ -1,0 +1,85 @@
+body {
+    background: #fafafa;
+  }
+  
+  .dino {
+    position: absolute;
+    bottom: 0;
+    background-image: url(../img/mario.png);
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    margin-left:70px;
+  }
+  
+  .cactus {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    bottom: 0;
+    background-image: url(../img/goombas-nos-jogos-do-mario.png);
+    background-repeat: no-repeat;
+  }
+  
+  .game-over {
+    text-align: center;
+    font-size: 100px;
+    margin: 50px 0;
+    font-family: arial;
+    background: -webkit-linear-gradient(#6610F2, #00D4FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .button{
+
+  }
+  
+  @keyframes slideright {
+    from {
+        background-position: 70000%;
+    }
+    to {
+        background-position: 0%;
+    }
+  }
+  
+  .background {
+    position: absolute;
+    bottom: 0;
+    background-size: 700px;
+    background-image: url('../img/fundoMario.gif');
+    background-repeat: repeat-x;
+    animation: slideright 1500s infinite linear;
+    -webkit-animation: slideright 1500s infinite linear;
+    width: 100%;
+    height: 1500px;
+  }
+
+  @media (max-width:960px){
+    background{ animation: slideright 300s infinite linear;
+    -webkit-animation: slideright 300s infinite linear; ;
+    }
+  }
+
+
+  .md{
+    text-align: center;
+  }
+
+  .ad{
+    
+    color:black;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 50px;
+    text-decoration: none;
+    border: solid 4px rgb(51, 91, 151);
+  }
+ .ad:hover{
+   background-color: rgb(126, 181, 226);
+   transition: .5s;
+ }
+ .bodi{
+   background: blue;
+ }

@@ -1,0 +1,48 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: black;
+    background-image: url(../img/677799.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+
+
+.tudo{
+    text-align: center;
+   
+  }
+  
+    header h1{
+      font-size: 100px;
+      background: -webkit-linear-gradient(#e62d2d, #3c64d4);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 80px;
+    } 
+    img{
+        border-radius: 50px;
+    }
+    a{
+        color:white;
+      text-decoration: none;
+      padding: 20px; 
+      font-size: 30px;
+      background: rgba(83, 73, 73, 0.658);
+     
+     border-image: linear-gradient(227.91deg, #106af2 0%, #00e0ff 100%)1;
+     border-radius: 20px;
+      
+    }
+    a:hover{
+        background-color: rgba(102, 102, 102, 0.925);
+        border-radius: 20px;
+    }
+  
+    
